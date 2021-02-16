@@ -224,6 +224,11 @@ p {
   padding-top: 5px;
 }
 
+@media all and (max-width: 1060px) {
+  .promo-tours {
+    max-width: 236px;
+  }
+}
 .nav-rest {
   margin: 0 auto;
   width: 76.5%;
