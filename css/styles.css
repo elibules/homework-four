@@ -1,0 +1,467 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: "GillSans";
+  src: url(../css/fonts/GillSans.otf);
+}
+@font-face {
+  font-family: "ProximaNova";
+  src: url(../css/fonts/Proxima-Nova-Thin.otf);
+}
+@font-face {
+  font-family: "ProximaNovaCondensed";
+  src: url(../css/fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+.hero {
+  width: 100vw;
+  height: 100vh;
+  max-width: 1280px;
+  max-height: 500px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.hero .hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.hero .hero-content h1 {
+  padding-top: 90px;
+  color: white;
+  font-family: "ProximaNovaCondensed";
+  font-size: 60px;
+}
+.hero .hero-content p {
+  color: white;
+  font-family: "GillSans";
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 700;
+  min-width: 235px;
+  max-width: 425px;
+  text-align: center;
+}
+.hero .hero-content a {
+  margin-top: 34px;
+  padding: 15px 20px 10px 20px;
+  background-color: #79addc;
+  color: white;
+  font-family: "GillSans";
+  font-weight: 700;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.promo-tours {
+  margin: 0 auto;
+  width: 100vw;
+  max-width: 1280px;
+  min-height: 304px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-left: 160px;
+  padding-right: 160px;
+  top: -50px;
+  position: relative;
+}
+.promo-tours .promo-israel {
+  height: 304px;
+  min-width: 236px;
+  width: 236px;
+  margin-bottom: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/tour-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-family: "ProximaNovaCondensed";
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.promo-tours .promo-israel h2 {
+  font-size: 60px;
+}
+.promo-tours .promo-israel h3 {
+  position: relative;
+  top: -60px;
+  font-size: 30px;
+}
+.promo-tours .promo-israel a {
+  position: relative;
+  top: -40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0px;
+  color: white;
+  text-decoration: none;
+  font-family: "GillSans";
+  font-size: 15px;
+  font-weight: 700;
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 30px;
+}
+.promo-tours .promo-israel a span {
+  padding-top: 5px;
+}
+.promo-tours .promo-usa {
+  height: 304px;
+  min-width: 236px;
+  width: 236px;
+  margin-bottom: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/tour-02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-family: "ProximaNovaCondensed";
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.promo-tours .promo-usa h2 {
+  font-size: 60px;
+}
+.promo-tours .promo-usa h3 {
+  position: relative;
+  top: -60px;
+  font-size: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.promo-tours .promo-usa a {
+  position: relative;
+  top: -40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0px;
+  color: white;
+  text-decoration: none;
+  font-family: "GillSans";
+  font-size: 15px;
+  font-weight: 700;
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 30px;
+}
+.promo-tours .promo-usa a span {
+  padding-top: 5px;
+}
+.promo-tours .promo-australia {
+  height: 304px;
+  min-width: 236px;
+  width: 236px;
+  margin-bottom: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/tour-03.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-family: "ProximaNovaCondensed";
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.promo-tours .promo-australia h2 {
+  font-size: 60px;
+}
+.promo-tours .promo-australia h3 {
+  position: relative;
+  top: -60px;
+  font-size: 30px;
+}
+.promo-tours .promo-australia a {
+  position: relative;
+  top: -40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0px;
+  color: white;
+  text-decoration: none;
+  font-family: "GillSans";
+  font-size: 15px;
+  font-weight: 700;
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 30px;
+}
+.promo-tours .promo-australia a span {
+  padding-top: 5px;
+}
+
+.nav-rest {
+  margin: 0 auto;
+  width: 76.5%;
+  height: 16%;
+  max-width: 980px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: black solid 2px;
+}
+.nav-rest .logo {
+  width: 92px;
+  height: 42px;
+  background-image: url(../../images/logo-black.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.nav-rest .links {
+  width: 500px;
+  height: 42px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.nav-rest .links div {
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 20px;
+  border-right: #79addc 1px solid;
+}
+.nav-rest .links a {
+  display: flex;
+  text-decoration: none;
+  font-family: "GillSans";
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.nav-home {
+  margin: 0 auto;
+  width: 76.5%;
+  height: 16%;
+  max-width: 980px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: white solid 2px;
+}
+.nav-home .logo {
+  width: 92px;
+  height: 42px;
+  background-image: url(../../images/logo-white.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.nav-home .links {
+  width: 500px;
+  height: 42px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.nav-home .links div {
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 20px;
+  border-right: #79addc 1px solid;
+}
+.nav-home .links a {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  font-family: "GillSans";
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.booking-form {
+  margin: 0 auto;
+  max-width: 875px;
+  min-height: 100vh;
+  width: 100vw;
+  background-color: white;
+}
+.booking-form h4 {
+  font-family: "ProximaNovaCondensed";
+  font-size: 60px;
+}
+.booking-form .fillable-forms {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.booking-form .fillable-forms .small-input {
+  height: 58px;
+  width: 100%;
+  min-width: 344px;
+  max-width: 370px;
+  border-radius: 0px;
+  border: #79addc 2px solid;
+  margin-bottom: 30px;
+  padding-left: 15px;
+  font-family: "GillSans";
+  font-size: 18px;
+}
+.booking-form .fillable-forms .big-input {
+  height: 58px;
+  width: 100%;
+  max-width: 480px;
+  min-width: 344px;
+  border: #79addc 2px solid;
+  margin-bottom: 30px;
+  padding-left: 15px;
+  font-family: "GillSans";
+  font-size: 18px;
+}
+.booking-form .fillable-forms .calendar-form {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+}
+.booking-form .fillable-forms .calendar-form label {
+  font-family: "GillSans";
+  font-size: 18px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-right: 35px;
+}
+.booking-form .fillable-forms .calendar-form .date-selection {
+  height: 58px;
+  width: 100%;
+  min-width: 172px;
+  max-width: 698px;
+  border: #79addc 2px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.booking-form .fillable-forms .calendar-form .date-selection p {
+  position: relative;
+  top: 10px;
+  font-family: "GillSans";
+  font-size: 18px;
+  padding-left: 15px;
+}
+.booking-form .fillable-forms .calendar-form .date-selection div {
+  height: 19px;
+  width: 19px;
+  background-image: url(../../images/calendar.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-right: 15px;
+}
+.booking-form .fillable-forms .drop-downs {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+}
+.booking-form .fillable-forms .drop-downs div {
+  width: 225px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.booking-form .fillable-forms .drop-downs div label {
+  position: relative;
+  top: 5px;
+  font-family: "GillSans";
+  font-size: 18px;
+}
+.booking-form .fillable-forms .drop-downs div .dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 102px;
+  height: 58px;
+  border: #79addc 2px solid;
+}
+.booking-form .fillable-forms .drop-downs div .dropdown p {
+  padding-left: 10px;
+  position: relative;
+  top: 10px;
+  font-family: "GillSans";
+  font-size: 18px;
+}
+.booking-form .fillable-forms .drop-downs div .dropdown .triangle {
+  margin-right: 5px;
+  width: 20px;
+  height: 10px;
+  background-image: url(../../images/down-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.booking-form .fillable-forms .message {
+  height: 192px;
+  width: 100%;
+  border: #79addc 2px solid;
+  font-family: "GillSans";
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+.booking-form .fillable-forms button {
+  width: 100%;
+  height: 61px;
+  background-color: #79addc;
+  border-radius: 30px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.booking-form .fillable-forms button div {
+  color: white;
+  font-family: "GillSans";
+  font-size: 15px;
+}
+
+footer {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 100vw;
+  height: 100px;
+  background-color: #79addc;
+}

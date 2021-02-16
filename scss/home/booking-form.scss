@@ -1,0 +1,166 @@
+.booking-form {
+  margin: 0 auto;
+  max-width: 875px;
+  min-height: 100vh;
+  width: 100vw;
+  background-color: white;
+
+  h4 {
+    font-family: "ProximaNovaCondensed";
+    font-size: 60px;
+  }
+
+  .fillable-forms {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+
+    .small-input {
+      height: 58px;
+      width: 100%;
+      min-width: 344px;
+      max-width: 370px;
+      border-radius: 0px;
+      border: $site-blue 2px solid;
+      margin-bottom: 30px;
+      padding-left: 15px;
+      font-family: "GillSans";
+      font-size: 18px;
+    }
+
+    .big-input {
+      height: 58px;
+      width: 100%;
+      max-width: 480px;
+      min-width: 344px;
+      border: $site-blue 2px solid;
+      margin-bottom: 30px;
+      padding-left: 15px;
+      font-family: "GillSans";
+      font-size: 18px;
+    }
+
+    .calendar-form {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      padding-bottom: 30px;
+
+      label {
+        font-family: "GillSans";
+        font-size: 18px;
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-right: 35px;
+      }
+
+      .date-selection {
+        height: 58px;
+        width: 100%;
+        min-width: 172px;
+        max-width: 698px;
+        border: $site-blue 2px solid;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        p {
+          position: relative;
+          top: 10px;
+          font-family: "GillSans";
+          font-size: 18px;
+          padding-left: 15px;
+        }
+
+        div {
+          height: 19px;
+          width: 19px;
+          background-image: url(../../images/calendar.svg);
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          margin-right: 15px;
+        }
+      }
+    }
+
+    .drop-downs {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding-bottom: 30px;
+
+      div {
+        width: 225px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        label {
+          position: relative;
+          top: 5px;
+          font-family: "GillSans";
+          font-size: 18px;
+        }
+
+        .dropdown {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 102px;
+          height: 58px;
+          border: $site-blue 2px solid;
+
+          p {
+            padding-left: 10px;
+            position: relative;
+            top: 10px;
+            font-family: "GillSans";
+            font-size: 18px;
+          }
+
+          .triangle {
+            margin-right: 5px;
+            width: 20px;
+            height: 10px;
+            background-image: url(../../images/down-arrow.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+          }
+        }
+      }
+    }
+
+    .message {
+      height: 192px;
+      width: 100%;
+      border: $site-blue 2px solid;
+      font-family: "GillSans";
+      font-size: 18px;
+      margin-bottom: 40px;
+    }
+
+    button {
+      width: 100%;
+      height: 61px;
+      background-color: $site-blue;
+      border-radius: 30px;
+      border: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 40px;
+
+      div {
+        color: white;
+        font-family: "GillSans";
+        font-size: 15px;
+      }
+    }
+  }
+}
